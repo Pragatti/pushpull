@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Signup | Budget HANDLING</title>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body background style="background-color:#DBF9FC">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="index.html">Ctrl Budget</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="About us.html"><span class="glyphicon glyphicon-user"></span>About us</a></li>
+                        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+         <div class="container-fluid decor_bg" id="signup-panel">
+            <div class="row">
+                <div class="container">
+                    <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
+                        <div class="panel panel-danger">
+                       <div class="panel-heading">
+                                <h4>Sign up</h4>
+                            </div>
+                          <div class="panel-body">
+                        <form  name= "form1" action="validation.php" method="POST" enctype="multipardata">
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input class="form-control" placeholder="Name" name="Name"  required>
+                            </div>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" class="form-control"  placeholder=" Enter Valid Email"  name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" class="form-control" placeholder="Password(MIN.6 CHARACTER" name="password" required>
+                            </div>
+                            <div class="form-group">
+                                <label>PhoneNumber</label>
+                                <input type="text" class="form-control"  placeholder="Enter Valid Phone NUMBER(EX:8448444853)" maxlength="10" size="10" name="contact" required>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit"  value="submit" class="btn btn-danger"> Signup</button>
+                            </div>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+          <footer>
+            <div class="container">
+                <center>
+                    <p>Copyright &copy; ctrl budget. All Rights Reserved  |  Contact Us: 8219896993</p>	
+                </center>
+            </div>
+        </footer>
+    </body>
+</html>
